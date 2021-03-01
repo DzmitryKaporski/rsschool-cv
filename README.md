@@ -1,1 +1,1 @@
-[https://DzmitryKaporski.github.io/rsschool-cv/cv.](https://myresume.ru/resume/4TXtlzYrdTX/)
+[https://DzmitryKaporski.github.io/rsschool-cv/cv.](https://dzmitrykaporski.github.io/rsschool-cv/index.html)
