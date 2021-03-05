@@ -4,12 +4,17 @@ body {
 
 .summary-page {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
+@media (max-width: 650px) {
+    .summary-page {
+        flex-direction: column;
+    }
+}
+
 .section-information {
-    border: solid 2px rgb(34, 34, 66);
+    border: solid 1px rgb(34, 34, 66);
 }
 
 .section-information_header,
@@ -41,7 +46,7 @@ body {
 }
 
 .section-aside {
-    width: 600px;
+    width: auto;
     color: white;
     background: rgb(34, 34, 66);
 }
