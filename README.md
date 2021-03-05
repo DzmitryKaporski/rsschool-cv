@@ -1,5 +1,5 @@
 
-1. [https://DzmitryKaporski.github.io/rsschool-cv/cv.](https://github.com/rolling-scopes-school/stage0/blob/master/tasks/html-css-git.md)
+1. [https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/html-css](https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/html-css)
 
 2. ![](https://clck.ru/TVT5Q)
 
