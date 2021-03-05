@@ -45,6 +45,12 @@ body {
     margin-left: 150px;
 }
 
+@media (max-width: 650px) {
+    .section-information_content {
+        margin-left: 15px;
+    }
+}
+
 .section-aside {
     width: auto;
     color: white;
@@ -77,6 +83,12 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     margin: 350px 10px 0 10px;
+}
+
+@media (max-width: 650px) {
+    .footer-wrap {
+        margin: 50px 10px 50px 10px;
+    }
 }
 
 .fa-github {
