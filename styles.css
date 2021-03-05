@@ -1,47 +1,96 @@
 body {
-    background-color: darkgray;
-    color: white;
-    font-size: 18px;
+    margin: 5px;
 }
 
-.container {
-    width: 90vw;
-    margin: 20px auto;
-    border-radius: 15px;
-    padding: 20px;
-    background-color: #000;
-}
-
-li {
-    list-style: none;
-}
-
-.skills_row {
+.summary-page {
     display: flex;
-    align-items: center;
-    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.skills_row>div {
-    width: 20%;
-    text-align: right;
-    padding-right: 25px;
+.section-information {
+    border: solid 2px rgb(34, 34, 66);
 }
 
-.skills_row>progress {
-    width: 60%;
-    height: 30px;
+.section-information_header,
+.section-information_subheader {
+    text-align: center;
+}
+
+.section-information_title {
+    margin: 0 15px 0 15px;
+    padding: 2px 0 0 5px;
+    font-weight: bold;
+    border-top: solid 1px blue;
+    border-bottom: solid 1px blue;
+    border-radius: 5px;
+    background: rgba(0, 0, 255, 0.055);
+}
+
+.section-information_time {
+    margin: 15px;
+}
+
+.section-information_caption {
+    font-weight: bold;
+}
+
+.section-information_content {
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+.section-aside {
+    width: 600px;
+    color: white;
+    background: rgb(34, 34, 66);
+}
+
+.section-aside_avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.section-aside_headline {
+    padding-left: 15px;
+    color: white;
+    background: rgba(0, 0, 255, 0.151);
+}
+
+.section-information_text {
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.section-information_blockquote {
+    width: 55%;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 350px 10px 0 10px;
+}
+
+.fa-github {
+    font-size: 90px;
+}
+
+.footer-img {
+    height: 90px;
 }
 
 code {
-    padding: 20px 30px;
-    margin: 15px auto;
+    padding: 10px 20px;
     display: block;
     border-radius: 3px;
-    background-color: darkgray;
+    background: rgba(169, 169, 169, 0.274);
     border-left: 3px solid lightgray;
 }
 
 a {
-    color: white;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
 }
