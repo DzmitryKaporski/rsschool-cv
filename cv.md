@@ -1,10 +1,10 @@
-![](https://clck.ru/TAgNu")
+![](https://clck.ru/TAgNu)
 
 # KAPORSKI DZMITRY
 
 I feel a passion for the world of IT technologies and would like to associate with him his future activities to create value for the people in the field of IT.
 
-## Experience <br>
+## Experience 
 
 **2020 - 2020
 "STEP IT Academy".  (Web developer / Front-end developer) [Certificate](https://clck.ru/QckyA)**
@@ -50,7 +50,7 @@ I feel a passion for the world of IT technologies and would like to associate wi
 The Rolling Scopes.  ( JavaScript/Front-end)**
 
 
-## Education <br>
+## Education 
 
 **1999 - 2002
 Mogilev State Polytechnic College**
@@ -58,7 +58,7 @@ Mogilev State Polytechnic College**
 **2007 - 2011
 Moscow State University of Economics, Statistics and Informatics**
 
-## Skills <br>
+## Skills 
 
 - CSS3 (BAM/ RESPONSIVE DESIGN)
 - JS/ES5, ES6
@@ -88,7 +88,7 @@ Moscow State University of Economics, Statistics and Informatics**
 </script>
 ```
 
-## Contact information: <br>
+## Contact information:
 
 - Phone number: +375 29 845-57-78
 - Email:  dzmitry.kaporski@gmail.com
