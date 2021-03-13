@@ -52,9 +52,15 @@ body {
 }
 
 .section-aside {
-    width: auto;
+    width: 450px;
     color: white;
     background: rgb(34, 34, 66);
+}
+
+@media (max-width: 650px) {
+    .section-aside {
+        width: auto;
+    }
 }
 
 .section-aside_avatar {
@@ -81,7 +87,7 @@ body {
 .footer-wrap {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 350px 10px 0 10px;
 }
 
