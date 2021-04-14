@@ -14,121 +14,143 @@
 
   <body>
     <div class="page">
-      <main>
-        <div class="page-wrap">
-          <section class="section-aside">
+      <header>
+        <div class="header">
+          <div class="header__inner-wrap">
             <figure>
-              <div class="section-aside__avatar">
-                <img src="https://clck.ru/TAgNu" alt="photo-Dzmitry Kaporski" />
-              </div>
+              <img
+                class="header__img"
+                src="https://clck.ru/TAgNu"
+                alt="photo-Dzmitry Kaporski"
+              />
             </figure>
-            <div class="section-aside__headline">
+            <div class="header__popup">
+              <span class="header__popup-text">My contacts </span>
+              <img
+                class="header__popup-qrcode"
+                src="https://clck.ru/UHN7G"
+                alt="QR code"
+              />
+            </div>
+          </div>
+          <div class="header__title-box">
+            <div class="header__title">KAPORSKI DZMITRY</div>
+            <div class="header__subtitle">
+              <h1>JUNIOR FRONTEND DEVELOPER</h1>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="article">
+          <aside class="aside">
+            <div class="aside__headline">
               <h3>CONTACTS</h3>
             </div>
-            <aside>
-              <ul class="section-aside__list-contacts">
-                <li class="section-aside__phone">
-                  <h4>
-                    <i class="fas fa-phone-volume"></i>&nbsp; +375 29 845-57-78
-                    <i class="fab fa-viber"></i>
-                    <i class="fab fa-telegram"></i>
-                  </h4>
-                </li>
-                <li class="section-aside__email">
-                  <h4>
-                    <i class="fas fa-envelope"></i>&nbsp;
-                    dzmitry.kaporski@gmail.com
-                  </h4>
-                </li>
-                <li class="section-aside__link">
-                  <a href="https://www.linkedin.com/in/kaporski/">
-                    <h4><i class="fab fa-linkedin"></i>&nbsp; linkedin.com</h4>
-                  </a>
-                </li>
-                <li class="section-aside__skype">
-                  <i class="fab fa-skype"></i>&nbsp; live:.cid.d6899aaa40ee068d
-                </li>
-                <li class="link">
-                  <a href="https://github.com/DzmitryKaporski">
-                    <h4>
-                      <i class="fab fa-github-square"></i>&nbsp; github.com
-                    </h4>
-                  </a>
+            <ul class="aside__list-contacts">
+              <li class="aside__phone">
+                <h4>
+                  <i class="fas fa-phone-volume"></i>&nbsp; +375 29 845-57-78
+                  <i class="fab fa-viber"></i>
+                  <i class="fab fa-telegram"></i>
+                </h4>
+              </li>
+              <li class="aside__email">
+                <h4>
+                  <i class="fas fa-envelope"></i>&nbsp;
+                  dzmitry.kaporski@gmail.com
+                </h4>
+              </li>
+              <li class="aside__linkedin">
+                <a href="https://www.linkedin.com/in/kaporski/">
+                  <h4><i class="fab fa-linkedin"></i>&nbsp; linkedin.com</h4>
+                </a>
+              </li>
+              <li class="aside__skype">
+                <i class="fab fa-skype"></i>&nbsp; live:.cid.d6899aaa40ee068d
+              </li>
+              <li class="link">
+                <a href="https://github.com/DzmitryKaporski">
+                  <h4><i class="fab fa-github-square"></i>&nbsp; github.com</h4>
+                </a>
+              </li>
+            </ul>
+            <div class="aside__headline">
+              <h3>SKILLS</h3>
+            </div>
+            <ul class="aside__list-skills">
+              <li class="aside__skill">
+                <h4>
+                  <i class="fab fa-html5"></i>
+                  HTML5 (BEM / Semantic) <i class="fab fa-css3-alt"></i>
+                  CSS3
+                </h4>
+                <progress class="progress" value="5" max="10"></progress>
+                Basic
+              </li>
+              <li class="aside__skill">
+                <h4><i class="fab fa-node-js"></i> JS/ES5, ES6</h4>
+                <progress class="progress" value="5" max="10"></progress>
+                Basic
+              </li>
+              <li class="aside__skill">
+                <h4>
+                  <i class="fab fa-react"></i> React (Redux/ Router/ Hooks)
+                </h4>
+                <progress class="progress" value="4" max="10"></progress>
+                Basic
+              </li>
+              <li class="aside__skill">
+                <h4><i class="fab fa-node"></i> Node.js</h4>
+                <progress class="progress" value="4" max="10"></progress>
+                Basic
+              </li>
+              <li class="aside__skill">
+                <h4><i class="fab fa-github-square"></i> GitHub</h4>
+                <progress class="progress" value="4" max="10"></progress>
+                Basic
+              </li>
+              <li class="aside__skill">
+                <h4><i class="fas fa-users"></i> Skills in teamwork</h4>
+              </li>
+            </ul>
+            <div class="aside__headline">
+              <h3>LANGUAGES</h3>
+            </div>
+            <div class="aside__language">
+              <ul class="aside__list-skills">
+                <li class="aside__skill">
+                  <h4>English</h4>
+                  <progress class="progress" value="2" max="10"></progress>
+                  <h4>Elementary A1</h4>
                 </li>
               </ul>
-              <div class="section-aside__headline">
-                <h3>SKILLS</h3>
-              </div>
-              <ul class="section-aside__list-skills">
-                <li class="section-aside__skill">
-                  <h4>
-                    <i class="fab fa-html5"></i>
-                    HTML5/ <i class="fab fa-css3-alt"></i>
-                    CSS3
-                  </h4>
-                  <progress value="5" max="10"></progress> Basic
-                </li>
-                <li class="section-aside__skill">
-                  <h4><i class="fab fa-node-js"></i> JS/ES5, ES6</h4>
-                  <progress value="5" max="10"></progress> Basic
-                </li>
-                <li class="section-aside__skill">
-                  <h4>
-                    <i class="fab fa-react"></i>React (Redux/ Router/ Hooks)
-                  </h4>
-                  <progress value="4" max="10"></progress> Basic
-                </li>
-                <li class="section-aside__skill">
-                  <h4><i class="fab fa-node"></i> Node.js</h4>
-                  <progress value="4" max="10"></progress> Basic
-                </li>
-                <li class="section-aside__skill">
-                  <h4><i class="fab fa-github-square"></i> Git</h4>
-                  <progress value="4" max="10"></progress> Basic
-                </li>
-                <li class="section-aside__skill">
-                  <h4><i class="fas fa-users"></i> Skills in teamwork</h4>
-                </li>
-              </ul>
-              <div class="section-aside__headline">
-                <h3>LANGUAGES</h3>
-              </div>
-              <div class="language">
-                <ul>
-                  <li class="section-aside__skill">
-                    <h4>English</h4>
-                    <progress value="2" max="10"></progress> Elementary
-                  </li>
-                </ul>
-              </div>
-            </aside>
-            <div class="footer-wrap">
-              <div class="footer-link">
+            </div>
+            <div class="aside__footer-wrap">
+              <div class="aside__footer-github">
                 <a href="https://github.com/DzmitryKaporski">
                   <i class="fab fa-github"></i>
                 </a>
               </div>
-              <div class="footer-logo">
+              <div class="aside__footer-school">
                 <a href="https://rs.school/js/">
                   <img
-                    class="footer-img"
+                    class="aside__footer-img"
                     src="https://techno.2gis.ru/storage/conferences/29/logo_rs2.svg"
                     alt="logo RS School"
                   />
                 </a>
               </div>
+              <div class="aside__footer-youtube">
+                <a href="">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
             </div>
-          </section>
-
+          </aside>
           <section>
-            <section class="information">
+            <div class="information">
               <div class="section-information">
-                <div class="section-information__header">
-                  <h1>KAPORSKI DZMITRY</h1>
-                </div>
-                <div class="section-information__subheader">
-                  <h2>JUNIOR FRONTEND DEVELOPER</h2>
-                </div>
                 <div class="section-information__work-experience-box">
                   <div class="section-information__title">
                     <i class="fas fa-briefcase"></i> WORK EXPERIENCE
@@ -142,16 +164,10 @@
                       <p>Web developer / Front-end developer</p>
                     </div>
                     <div class="section-information__caption">
-                      Code Examples:
-                      <blockquote class="section-information__blockquote">
-                        <code>let set = [...new Set(arr)];</code>
-                      </blockquote>
-                    </div>
-                    <div class="section-information__caption">
                       Acquainted with my projects here:
                       <a href="https://github.com/DzmitryKaporski"> GitHub </a>
                     </div>
-                    <h2>
+                    <h2 class="section-information__content-item">
                       <i class="fab fa-html5"></i> HTML5/
                       <i class="fab fa-css3-alt"> </i>CSS3
                     </h2>
@@ -186,8 +202,11 @@
                       <li class="section-information__list-item">
                         Adaptive layout;
                       </li>
+                      <li class="section-information__list-item">BEM;</li>
                     </ul>
-                    <h2><i class="fab fa-node-js"></i> JavaScript</h2>
+                    <h2 class="section-information__content-item">
+                      <i class="fab fa-node-js"></i> JavaScript
+                    </h2>
                     <ul class="section-information__list">
                       <li class="section-information__list-item">
                         Basic concepts EcmaScript;
@@ -198,31 +217,33 @@
                       <li class="section-information__list-item">Cycles;</li>
                       <li class="section-information__list-item">Arrays;</li>
                       <li class="section-information__list-item">
-                        Functions & Function Expression
+                        Functions & Function Expression;
                       </li>
                       <li class="section-information__list-item">Objects;</li>
                       <li class="section-information__list-item">
                         Date and section-information__time;
                       </li>
                       <li class="section-information__list-item">Client JS;</li>
-                      <li class="section-information__list-item">DOM</li>
+                      <li class="section-information__list-item">DOM;</li>
                     </ul>
-                    <h2><i class="fab fa-react"></i> React</h2>
+                    <h2 class="section-information__content-item">
+                      <i class="fab fa-react"></i> React
+                    </h2>
                     <ul class="section-information__list">
                       <li class="section-information__list-item">
-                        Introduction to the JSX ;
+                        Introduction to the JSX;
                       </li>
                       <li class="section-information__list-item">
-                        Rendering elements
+                        Rendering elements;
                       </li>
                       <li class="section-information__list-item">
-                        Components and props ;
+                        Components and props;
                       </li>
                       <li class="section-information__list-item">
-                        Status and Life Cycle
+                        Status and Life Cycle;
                       </li>
                       <li class="section-information__list-item">
-                        Event processing ;
+                        Event processing;
                       </li>
                       <li class="section-information__list-item">
                         Conditional rendering;
@@ -236,7 +257,7 @@
                         The rise of the state;
                       </li>
                       <li class="section-information__list-item">Hooks;</li>
-                      <li class="section-information__list-item">Redux</li>
+                      <li class="section-information__list-item">Redux;</li>
                     </ul>
                   </div>
                 </div>
@@ -246,26 +267,25 @@
                   </div>
                   <div class="section-information__time">1999 - 2002</div>
                   <div class="section-information__text">
-                    <p>
-                      Mogilev State Polytechnic College
-                    </p>
+                    <p>"Mogilev State Polytechnic College"</p>
                   </div>
                   <div class="section-information__time">2007 - 2011</div>
                   <div class="section-information__text">
                     <p>
-                      Moscow State University of Economics, Statistics and
-                      Informatics
+                      "Moscow State University of Economics, Statistics and
+                      Informatics"
+                      <i> <a href=" https://clck.ru/UHdoT">Diploma</a></i>
                     </p>
                   </div>
                 </div>
                 <div class="section-information__courses">
                   <div class="section-information__title">
-                    <i class="fas fa-user-graduate"></i> COURSES
+                    <i class="fas fa-user-graduate"></i>COURSES
                   </div>
                   <div class="section-information__time">2019 - 2020</div>
                   <div class="section-information__text">
                     <p>
-                      "STEP IT Academy".&nbsp;
+                      "STEP IT Academy".
                       <i
                         >(Web developer / Front-end developer)
                         <a href="https://clck.ru/QckyA"> Certificate </a></i
@@ -274,13 +294,11 @@
                   </div>
                   <div class="section-information__time">2021 - 2021</div>
                   <div class="section-information__text">
-                    <p>"Streamline" English.&nbsp; <i>(A1-Elementary)</i></p>
+                    <p>"Streamline" English. <i>(A1-Elementary)</i></p>
                   </div>
                   <div class="section-information__time">2021 - 2021</div>
                   <div class="section-information__text">
-                    <p>
-                      The Rolling Scopes.&nbsp; <i>( JavaScript/Front-end)</i>
-                    </p>
+                    <p>"The Rolling Scopes." <i>( JavaScript/Front-end)</i></p>
                   </div>
                 </div>
                 <div class="section-information__about-me-box">
@@ -296,7 +314,7 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
           </section>
         </div>
       </main>
