@@ -1,4 +1,9 @@
 .page {
+  display: flex;
+  justify-content: center;
+}
+
+.page__wrapper {
   box-shadow: 0 0 15px 0 blue;
   border-style: outset;
 }
@@ -24,10 +29,10 @@
 }
 
 .header__inner-wrap {
+  width: 29.1%;
   display: flex;
   justify-content: center;
   padding: 15px 0 25px 0;
-  width: 29.1%;
   background: rgb(34, 34, 66);
 }
 
