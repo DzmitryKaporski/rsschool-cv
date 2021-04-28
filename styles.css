@@ -48,13 +48,9 @@
 .header__img {
   border-style: inset;
   box-shadow: 0 0 15px 0 blue;
-  border-radius: 15px;
   -webkit-animation: animationPhoto 5s ease-in-out infinite;
   animation: animationPhoto 5s ease-in-out infinite;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  border-radius: 15px;
 }
 
 @-webkit-keyframes animationPhoto {
@@ -84,24 +80,17 @@
   height: 200px;
   opacity: 0;
   transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  -ms-transition: all 1s ease-out;
-  -o-transition: all 1s ease-out;
 }
 
 .header__popup:hover {
   opacity: 1;
   transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
   cursor: none;
 }
 
 .header__popup-text {
   margin-left: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   width: 92%;
@@ -218,7 +207,7 @@
 }
 
 .aside__footer-wrap {
-  margin: 650px 10px 0 10px;
+  margin: 250px 10px 80px 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -264,28 +253,43 @@
 .aside__footer-img {
   height: 90px;
   transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  -ms-transition: all 1s ease-out;
-  -o-transition: all 1s ease-out;
 }
 
 .aside__footer-img:hover {
   opacity: 1;
   transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+}
+
+.portfolio__list {
+  margin-left: -40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.portfolio__item-img {
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.portfolio__item-description {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.portfolio__item-img:hover {
+  box-shadow: 0 0 8px 0 white;
+  transition: 0.5s;
 }
 
 .progress {
-  animation: animationProgress 5s ease-in-out infinite;
   -webkit-animation: animationProgress 5s ease-in-out infinite;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
+  animation: animationProgress 5s ease-in-out infinite;
 }
 
 @-webkit-keyframes animationProgress {
@@ -349,13 +353,10 @@
 .section-information__content-item {
   width: 80%;
   text-align: center;
-  border-radius: 15px;
   background: rgba(125, 125, 207, 0.095);
   box-shadow: 0 0 5px 0 rgba(0, 0, 255, 0.404);
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 a {
