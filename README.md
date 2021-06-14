@@ -4,7 +4,7 @@
 2. ![](https://clck.ru/TVT5Q)
 
 3. Deploy: [https://dzmitrykaporski.github.io/rsschool-cv/](https://dzmitrykaporski.github.io/rsschool-cv/)
-4. Deadline: 2021-03-09 03:59
+4. Deadline: 2021-03-09
 5. Score: 100 / 100
 - (V) вёрстка валидная, семантическая
 - (V) при написании кода следуйте гайдлайну [https://codeguide.co/](https://codeguide.co/)
